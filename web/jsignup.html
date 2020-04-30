@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<!--
+    To change this license header, choose License Headers in Project Properties.
+    To change this template file, choose Tools | Templates
+    and open the template in the editor.
+    -->
+<html>
+    <head>
+        <title>Railway reservation System</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="mystyle.css"/>
+        <div  id="d1">
+            <div  align="left" id="d4">
+                <!--<img src="download.png"/ width="50" height="50">--> 
+                <h1>   Railway reservation system </h1>
+            </div>
+            <div id="d3">
+                <table >
+                    <tr>
+                        <td> <a href="homepage.xhtml"> <input type="button" value="Home"> </a></td>
+                        <td> <a href="jlogin.html"> <input type="button" value="login"> </a></td>
+                        <td><a href="about.html"> <input type="button" value="About"></a> </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </head>
+    <body>
+        <center>
+            <div id="d6" >
+                <h3>Register here</h3>
+                <form action="jsprofile" method="post" >
+                    <div class="signup-input">
+                        <p><label for="name" class="search-input-label">Name</label>
+                            <input type="text" name="name"></p>
+                        <p><label for="age" class="search-input-label">Age</label>
+                            <input type="number" name="age"></p>
+                        <p><label for="gender" class="search-input-label">Gender </label>
+                        <input type="radio" name="gender" value="male"><label class="search-input-label">M</label>
+                        <input type="radio" value ="female" name="gender"><label class="search-input-label">F</label> </p>
+                        <p><label class="search-input-label">Contact No.</label>
+                            <input type="number" name="mobno"></p>
+                        <p><label class="search-input-label">Email</label>
+                            <input type="email" name="email"></p>
+                        <p><label class="search-input-label">Address</label>
+                            <input type="text" name="address"></p>
+                        <p><label class="search-input-label">Username</label>
+                            <input type="text" name="username"></p>
+                        <p><label class="search-input-label">password</label>
+                            <input type="passward" name="passward"></p>
+                        <input type="submit" value="submit"><input type="reset" value="reset">
+                    </div>    
+                </form>
+            </div>
+        </center>
+    </body>
+</html>

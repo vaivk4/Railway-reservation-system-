@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<!--<!DOCTYPE html>
+    To change this license header, choose License Headers in Project Properties.
+    To change this template file, choose Tools | Templates
+    and open the template in the editor.
+    -->
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="mystyle.css"/>
+        <style>
+            #d7{
+            color:white;
+            background-color:black;
+            opacity:0.7;
+            width: 320px;
+            height: 470px;
+            }
+            h3{color:white}h4{color:white}h2{color:white}
+        </style>
+        <!--<div align="right" id="d1">
+            <table >
+            <tr>
+                <td> <a href="homepage.xhtml"> <input type="button" value="Home"> </a></td>
+                <td> <a href="jlogin.html"> <input type="button" value="login"> </a></td>
+                <td><a href="jsignup.html"> <input type="button" value="signup"></a></td>
+                <td><a href="about.html"> <input type="button" value="About"></a> </td>
+              </tr>
+             </table>
+            </div>-->
+    </head>
+    <body>
+        <div id="d1">
+            <div class="homepage-top-text">
+                <div align="left" id="d4">
+                    <h1>
+                        Railway reservation system
+                    </h1>
+                </div>
+            </div>
+            <div id="d3">
+                <table>
+                    <tr>
+                        <td>
+                            <a href="homepage.xhtml"> <input type="button" value="Home" />
+                            </a>
+                        </td>
+                        <td>
+                            <a href="jlogin.html"> <input type="button" value="login" />
+                            </a>
+                        </td>
+                        <td>
+                            <a href="jsignup.html"> <input type="button" value="signup" /></a>
+                        </td>
+                        <td>
+                            <a href="about.html"> <input type="button" value="About" /></a>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <center>
+            <div id="d7">
+                <div class="search-form-text">
+                    <h2>Serach train here!</h2>
+                </div>
+                <form action="search_result" method="post">
+                    <div class="search-input">
+                        <label for="source" class="search-input-label">Source</label><br>
+                        <input type="text" name="source"><br><br><br>
+                        <label for="destination" class="search-input-label">Destination</label>
+                        <input type="text" name="destination">
+                    </div>
+                    <br>
+                    <input type="submit" value="submit" name="submit"> <input type="reset" value="reset">    
+                </form>
+            </div>
+        </center>
+    </body>
+</html>
